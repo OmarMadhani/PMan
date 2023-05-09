@@ -5,7 +5,7 @@ Name: Omar Madhani
 PMan allows you to start and manage multiple processes at a time.
 Even if a process is running, PMan will continue to accept user input.
 
-Ensure that PMan.c, PMan.h, and the Makefile are all in the same directory.
+Ensure that PMan.c, PMan.h, and the Makefile are all in the same linux directory.
 To compile PMan.c and create an executable, simply type "make" in your command line (within the same directory).
 To run the program, type "./PMan"
 
@@ -14,7 +14,9 @@ Congrats! You've launched PMan.
 (To quit PMan and terminate any processes created by it, type and enter "q")
 
 To start a background process, type "bg" followed by the process name. 
+
 For example, if I wanted to run a program called test, I would type bg ./test
+
 PMan assumes that you already have created an executable for the program.
 PMan will indicate that a process has been created by stating "Process (pid) created".
 
@@ -37,6 +39,7 @@ Ex) bgkill 12345
 
 PMan allows the user to obtain information about a process.
 (comm, state, utime, stime, rss, voluntary context switches, nonvoluntary context switches)
+
 Type "pstat" followed by a process ID to view this info.
 
 If the process does not exist or you do not provide a process ID, an error message will be displayed.
