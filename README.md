@@ -1,5 +1,6 @@
 # PMan
 Name: Omar Madhani
+
 PMan allows you to start and manage multiple processes at a time. Even if a process is running, PMan will continue to accept user input.
 
 Ensure that PMan.c, PMan.h, and the Makefile are all in the same linux directory.
