@@ -1,6 +1,6 @@
 # Process Manager (PMan)
 
-Omar Madhani (CSC 360)
+Omar Madhani (Computer Science 360)
 
 PMan allows you to start and manage multiple processes at a time.
 Even if a process is running, PMan will continue to accept user input.
